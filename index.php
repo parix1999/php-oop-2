@@ -29,5 +29,10 @@ class Eshop {
 $shop = new Eshop('TuttoPerTutti', 'Via della Grazia');
 var_dump($shop);
 
-$primoutente = new Utente();
-var_dump($primoutente);
+
+// Ora vediamo se gli oggetti sono passati dall'altro file in questa array:
+$primoUtente = new Utente1();
+var_dump($primoUtente);
+
+$secondoUtente = new Utente2();
+var_dump($secondoUtente);
